@@ -1,0 +1,26 @@
+.section-features .container{
+    padding: 2em;
+}
+.section-features .section-content {
+    display: flex;
+    gap: 2em;
+}
+
+.section-features .section-content article{
+    flex: 1 1 30%;
+    text-align: left;
+}
+.section-features .section-content article a {
+    color: #b0825c;
+    background: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #b0825c;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+.section-features .section-content article h2{
+    padding-bottom: 1em;
+}
+
+

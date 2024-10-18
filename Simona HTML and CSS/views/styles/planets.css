@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998641.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    background: linear-gradient(to bottom, #00008B, #000000);
+    
+    }
+    
+    li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500; 
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    
+    }
+    
+    
+    .logo {
+    cursor: pointer;
+    width: 50px; 
+    height: 50px; 
+    margin-right: 8px;
+    }
+    .logo:hover{
+      width: 60px;
+      height: 60px;
+      transition: all 0.3s ease 0s;
+    }
+    
+    .nav_links { 
+    list-style: none;
+    }
+    
+    .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    }
+    
+    .nav_links li a {
+    transition: all 0.3s ease 0s;
+    }
+    
+    .nav_links li a:hover {
+    color: #0e9bbe
+    }
+    
+    button {
+        font-weight: 500; 
+        font-size: 16px;
+        padding: 9px 25px;
+        background-color: rgba(0, 135, 169, 1);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+    
+    button:hover{
+        
+        background-color: rgba(0, 135, 169, 0.041);
+        border:#edf0f1;
+        border-style: solid;
+        transition: all 0.3s ease 0s;
+      
+    }
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 48px;
+    color: #fff;
+    transition: color 0.5s ease;
+    animation: floatAstronaut 3s infinite ease-in-out
+}
+
+h1:hover {
+    color:rgba(0, 135, 169, 1);
+}
+.dynamic-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-size: cover;
+    padding-bottom: 100px;
+  }
+  .planet{
+    padding-bottom: 5px;
+  }
+.planets{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+  align-content: space-around;
+  transition: transform 1s ease;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    
+}
+
+.image img:hover {
+    border: 2px solid #fff;
+    -webkit-box-shadow: rgb(76, 0, 255) 0px 0px 50px -15px;
+    box-shadow: rgb(238, 238, 243) 0px 0px 50px -15px;
+    overflow: hidden;
+    z-index: +1;
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.planets-name {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.planets-name a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.5s ease;
+}
+
+.planets-name a:hover {
+    color: rgba(0, 135, 169, 1);
+}
+.not-available-photo {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    padding-right: 300px;
+    color: #fff;
+    font-size: 34px;
+  }
+  
+  .not-available-photo h3 {
+    margin: 0;
+    
+  }
+  .not-available-photo a {
+    display: inline-block;
+    margin-inline: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color:rgba(0, 135, 169, 1);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    
+}
+.not-available-photo a:hover {
+    color: #c0c6e9;
+}
+
+@keyframes floatAstronaut {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+   /* footer */
+   footer  {
+    font-family: "Montserrat", sans-serif;
+    background-color: #1d1c1c;
+    color: #fff;
+    padding: 5px 0px;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  footer  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .social {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social li {
+    margin: 0 10px;
+  }
+  
+  .social a {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+  }
+  
+  .footer-bottom span {
+    color: #e74c3c;
+    font-weight: bold;
+  }

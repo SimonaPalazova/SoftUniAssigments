@@ -1,0 +1,41 @@
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-color: blue;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px black;
+    text-transform: uppercase;
+    display: inline;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+
+#red-button{
+    background-color: red;
+    cursor: crosshair;
+}
+#red-button:hover{
+    background-color: hotpink;
+}
+#purple-button{
+    background-color: purple;
+}
+#purple-button:hover{
+    background-color: azure;
+    border: 5px solid purple;
+    color: purple;
+}
+#green-button{
+background-color: green;
+}
+#green-button:hover{
+    background-color: azure;
+    border: 5px solid green;
+    color: green;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFC7EA;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    padding: 70px;
+    text-align: center;
+    max-width: 350px;
+    background: linear-gradient(14deg,  #F266AB 0%, #FBF0B2 66%, 
+              #fff 100%), radial-gradient(circle, rgba(2,0,36, 0.5) 0%, 
+              rgba(13, 2, 73, 0.2) 65%, rgba(17, 14, 29, 0.9) 100%);
+    border: 2px solid #fff;
+    -webkit-box-shadow: #F266AB;
+    box-shadow: rgb(238, 238, 243) 0px 0px 50px -15px;
+    overflow: hidden;
+    z-index: +1;
+  }
+  
+  .form-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #F266AB;
+  }
+  
+  .title-2 {
+    font-size: 24px;
+    color: #F266AB;
+    margin-top: 10px;
+    -webkit-text-stroke: #A459D1 0.9px;
+    letter-spacing: 0.2rem;
+    color: transparent;
+    position: relative;
+    text-shadow: 0px 0px 20px #F266AB;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .input-name,
+  .input-img,
+  .input-cocktail-ingredients,
+  .input-method-of-preparation {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ca92eb;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-name:focus,
+  .input-img:focus,
+  .input-method-of-preparation:focus,
+  .input-cocktail-ingredients:focus{
+    border-color:  #A459D1;
+  }
+  .input-name:hover,
+  .input-img:hover,
+  .input-cocktail-ingredients:hover,
+  .input-method-of-preparation:hover{
+    background-color: rgba(0, 135, 169, 0.041); /* Change the background color on hover to match your design */
+    border: #fff;
+    border-style: solid;
+    transition: all 0.1s ease 0s;
+    color:black;
+  }
+  
+  .submit {
+    margin-top: 30px;
+    background-color:  #A459D1;
+    color: #ffcdec;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #2cd2e100;
+    color: #A459D1;
+    border:#A459D1;
+    border-style: solid;  
+    transition: all 0.3s ease 0s;
+  }
+  
+  .signup-link {
+    color: #ca92eb;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .signup-link a:hover{
+    font-size: 16px;
+    color:#A459D1;
+  }
+  
+  .up {
+    color: #0e0ae2;
+    text-decoration: none;
+    margin-left: 5px;
+  }

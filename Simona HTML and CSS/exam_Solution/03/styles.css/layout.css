@@ -1,0 +1,44 @@
+.media img{
+    display: block;
+    width: 10%;
+    height: 10%;
+    background-color: #dddddd;
+    border-radius: 4em;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url(../images/background.jpg);
+    background-size: contain;
+    background-position: center -20px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-site-header .container .logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.section-site-header .container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+
+.section-site-header a{
+    color: white;
+    text-decoration: none;
+}
+.section-features{
+    background-color: white;
+}
+
+.sponsors-partners{
+    background: white;
+}
+.site-footer{
+    background: #171720;
+    color: white;
+}

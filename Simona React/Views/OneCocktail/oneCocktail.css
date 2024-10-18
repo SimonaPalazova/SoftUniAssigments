@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFC7EA;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 150px;;
+    overflow: hidden;
+    
+}
+
+.cocktail-info {
+    flex: 1;
+    padding-right: 90px;
+}
+
+.name {
+    color:#F266AB;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cocktail-ingredients{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cocktail-ingredients h3{
+    color: #A459D1;
+}
+.cocktail-ingredients p{
+    color: #F266AB;
+}
+
+.method-of-preparation{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.method-of-preparation h3{
+    color: #A459D1;
+}
+.method-of-preparation p{
+    color: #F266AB;
+}
+
+.subscribe button {
+    font-weight: 500; 
+    font-size: 16px;
+    padding: 9px 25px;
+    background-color: #A459D1;
+    color: #ffcdec;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.subscribe button:hover {
+    background-color: #2cd2e100;
+    color: #A459D1;
+    border:#A459D1;
+    border-style: solid;
+    transition: all 0.3s ease 0s;
+}
+.subscribe p{
+    color:#F266AB;
+}
+
+.cocktail-image {
+    max-width: 500px;
+    max-height: 500px;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    flex: 1.5;
+    text-align: right; /* Align image to the right */
+    overflow: hidden;
+}
+
+.cocktail-image img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.cocktail-image img:hover {
+    transform: scale(1.1);
+}
+
+.owner {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.owner a {
+    background-color: #A459D1;
+    max-width: 1000px;
+    color: #ffcdec;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 50px;
+    bottom: auto;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.owner a:hover {
+    background-color: #2cd2e100;
+    color: #A459D1;
+    border:#A459D1;
+    border-style: solid;  
+    transition: all 0.3s ease 0s;
+}
+
+@keyframes floatAstronaut {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+      transform: translate3d(+10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

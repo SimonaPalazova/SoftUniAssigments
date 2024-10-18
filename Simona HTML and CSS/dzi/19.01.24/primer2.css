@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+}
+.button{
+    background-color:rgb(190, 186, 186);
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    background-color:green;
+}
+.navigation-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+.navigation-space-around{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+}
+.navigation-end{
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+}
+p{
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+}

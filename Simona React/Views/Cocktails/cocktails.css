@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFC7EA;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 48px;
+    color: #F266AB;
+    transition: color 0.5s ease;
+    animation: floatAstronaut 3s infinite ease-in-out
+}
+
+h1:hover {
+    color: #A459D1;
+}
+.dynamic-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+.cocktails{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20%;
+  flex-wrap: wrap;
+  align-content: space-around;
+  transition: transform 1s ease;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    
+}
+
+.image img:hover {
+    overflow: hidden;
+    z-index: +1;
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.cocktails-name {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.cocktails-name a {
+    color:#F266AB;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.5s ease;
+}
+
+.cocktails-name a:hover {
+    color:  #A459D1;
+}
+.not-available-photo {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    padding-right: 300px;
+    color: #F266AB;
+    font-size: 34px;
+  }
+  
+  .not-available-photo h3 {
+    margin: 0;
+    text-align: center;
+    
+  }
+  .not-available-photo a {
+    display: inline-block;
+    margin-inline: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color:  #ca92eb;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    
+}
+.not-available-photo a:hover {
+    color: #A459D1;
+}
+
+@keyframes floatAstronaut {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

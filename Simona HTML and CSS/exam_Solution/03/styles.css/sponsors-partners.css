@@ -1,0 +1,17 @@
+.sponsors-partners .container{
+    padding: 2em;
+}
+
+.sponsors-partners .section-content {
+    display: flex;
+    gap: 2em;
+}
+
+.sponsors-partners .section-content article{
+    flex: 1 1 30%;
+    text-align: center;
+}
+.sponsors-partners .section-content .media {
+    justify-items: center;
+    
+}

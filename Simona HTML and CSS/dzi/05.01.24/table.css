@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.th1{
+    font-size: 24px;
+}
+.td1 {
+    background-color: aquamarine;
+    font-size: 20px;
+    font-style: italic;
+}
+.td21{
+    background-color: burlywood;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.td22{
+    background-color: rgb(98, 255, 87);
+    color: yellow;
+    font-size: 22px;
+}
+.td23{
+    background-color: red;
+    color:white;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.button{
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.778);
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: white;
+    border: 2px solid;
+    border-color:rgba(255, 0, 0, 0.778);
+
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+img.logo{
+    width: 150px;
+    padding: 10px;
+}
+img.catalog{
+    width: 450px;
+    height: 290px;
+    padding: auto;
+    margin: auto;
+}
+.main-content{
+    padding: 20px;
+    display: flex;
+}
+.content{
+    padding-left: 50px;
+}
+.image{
+    padding-left: 550px;
+}
+.buttons{
+    padding-top: 20px;
+}
+.card img{
+    width: 150px;
+    padding: auto;
+    margin: auto;
+}
+.title2{
+    text-align: center;
+    padding: 10px;
+}
+.secondari-content{
+    display: flex;
+}
+.card{
+    margin: 50px;
+}
+.card h5{
+    text-align: center;
+    text-decoration: solid;
+}
+.footer{
+    background-color: rgba(255, 0, 0, 0.778);
+    text-align: center;
+    
+}
+.footer a{
+    color: white;
+    margin: 20px;
+}
+.footer-kontakti a{
+    color:white;
+    margin: 20px;
+}
+.footer-zanas a{
+    color: white;
+    margin: 20px;
+}
+.footer-kontakti{
+    background-color: rgba(255, 0, 0, 0.778);
+    text-align: center;
+    margin-top: 329px;
+}
+.footer-zanas{
+    background-color: rgba(255, 0, 0, 0.778);
+    text-align: center;
+    margin-top: 359px;
+}
+.box{
+    text-align: justify;
+    margin-left: 470px;
+    margin-top: 50px;
+    padding: 50px;
+}
+.box h2{
+    margin: 20px;
+}
+.box p{
+    margin: 20px;
+}
+.main{
+    padding-top: 80px;
+   
+}
+.main p{
+    margin-top: 50px;
+    margin-left: 20px;
+}
